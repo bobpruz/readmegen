@@ -32,7 +32,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function to generate description for README
 function generateDescription(description) {
-    return `${description};
+    return `${description}`;
 }
 
 // TODO: Create a function to generate builtwith for README
