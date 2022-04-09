@@ -54,8 +54,8 @@ function generatewebsiteLink(websiteLink) {
 }
 
 // TODO: Create a function to generate maintainers for README
-function generatemaintainers(maintainers) {
-  return `${maintainers}`;
+function generatemaintainer(maintainer) {
+  return `${maintainer}`;
 }
 
 // TODO: Create a function to generate screenshot for README
@@ -77,15 +77,15 @@ function generateMarkdown(data) {
 
   ## Built With
 
-  ${generatebuiltWith(data.license)}
+  ${generatebuiltWith(data.builtWith)}
 
   ## Website
 
-  ${generatewebsiteLink(data.license)}
+  ${generatewebsiteLink(data.websiteLink)}
 
   ## Maintainers
 
-  ${generatemaintainers(data.license)}
+  ${generatemaintainer(data.maintainer)}
 
   ## Screenshot
 
