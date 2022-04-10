@@ -37,17 +37,17 @@ function generateDescription(description) {
 
 // TODO: Create a function to generate builtwith for README
 function generatebuiltWith(builtWith) {
-  return `${builtWith}`;
+  return `${builtWith.join(', ')}`;
 }
 
 // TODO: Create a function to generate website link for README
-function generatewebsiteLink(websiteLink) {
-  return `${websiteLink}`;
+function generatewebsiteLink(website) {
+  return `${website}`;
 }
 
 // TODO: Create a function to generate maintainers for README
-function generatemaintainer(maintainer) {
-  return `${maintainer}`;
+function generatemaintainer(maintainer, email) {
+  return `<a href="mailto:${email}">Email: ${maintainer}</a>`;
 }
 
 // TODO: Create a function to generate screenshot for README
@@ -73,11 +73,11 @@ function generateMarkdown(data) {
 
   ## Website
 
-  ${generatewebsiteLink(data.websiteLink)}
+  ${generatewebsiteLink(data.website)}
 
-  ## Maintainers
+  ## Maintainer
 
-  ${generatemaintainer(data.maintainer)}
+  ${generatemaintainer(data.maintainer, data.email)}
 
   ## Screenshot
 

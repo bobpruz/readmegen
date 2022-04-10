@@ -60,7 +60,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'maintainers',
+        name: 'maintainer',
         message: 'Enter the name of the Maintainer',
         validate: maintainersInput => {
             if (maintainersInput) {
