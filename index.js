@@ -32,6 +32,20 @@ const questions = [
         }
     },
     {
+        type: "checkbox",
+        name: "builtWith",
+        message: "What did you build this project with? (Check all that apply)",
+        choices: [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "ES6",
+          "jQuery",
+          "Bootstrap",
+          "Node",
+        ],
+      },
+    {
         type: 'input',
         name: 'website',
         message: 'Enter the website link',
