@@ -19,6 +19,10 @@
   ## Maintainer
 
   <a href="mailto:bobpruz@gmail.com">Email: Robert Prusinowski</a>
+  
+  ## Video Link
+  
+  <a href="https://drive.google.com/file/d/1BHApkk8fclXdvumSy_b5UOzvtgMUsSE9/view?usp=sharing">Link to Video</a>
 
   ## Screenshot
 
